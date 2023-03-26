@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: linear-gradient(
+    90deg,
+    rgb(62, 150, 150) 0%,
+    rgb(133, 115, 78) 50%,
+    rgb(212, 138, 34) 100%
+  );
+  height: 100vh;
+  overflow: hidden;
+}
+.container h1 {
+  text-transform: uppercase;
+  color: rgb(123, 84, 27);
+  opacity: 0.9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: rgb(255, 253, 253);
+  border-radius: 9px;
+  box-shadow: 5px 5px 20px 1px rgb(70, 72, 66);
+}
+.container h1 {
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(56, 58, 59);
+}
+.container form {
+  padding: 5px 50px;
+  box-sizing: border-box;
+}
+form .txt_field {
+  position: relative;
+  margin: 6px 5px;
+  border-bottom: 1.6px solid rgb(10, 32, 228);
+  width: 100%;
+}
+.txt_field input {
+  width: 100%;
+  padding: 0px 5px;
+  height: 30px;
+  font-size: 16px;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+.pass {
+  margin: 17px 0 20px 5px;
+  color: rgb(122, 142, 160);
+}
+.pass:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.txt_field label {
+  color: rgb(122, 142, 160);
+}
+input[type="button"] {
+  width: 87%;
+  padding: 10px 0;
+  margin: 2% 10%;
+  border-radius: 2px 22px;
+  background-color: rgba(31, 53, 251, 0.956);
+  box-shadow: 1.5px 2.5px 9px rgb(157, 144, 139);
+  border: 1px double;
+  color: rgb(246, 221, 213);
+  font-size: 18px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+input[type="button"]:hover {
+  background-color: rgba(16, 35, 208, 0.978);
+  color: rgb(223, 215, 212);
+}
+.signup {
+  margin: 21px 50px;
+  color: rgb(0, 0, 0);
+  width: 100%;
+}
+.signup a {
+  text-decoration: none;
+  color: rgb(35, 21, 230);
+}
+
+.fb{
+  background-image: linear-gradient(to top, #3b5998, #2b4170);
+  color: white;
+  height: 25px;
+  padding: 5px 50px;
+  margin-top: 7px;
+  width: 180px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+ margin-left: 15px;
+}
+.gg{
+    background-color:rgba(6, 149, 1, 0.797);
+    height: 25px;
+    color: white;
+    padding: 5px 50px;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    width: 180px;
+}
+.gg a{
+  text-decoration: none;
+  color: white;
+
+}
+.fb a{
+  text-decoration: none;
+color: white;
+}
+p{
+  margin-left: 35%;
+  margin-top: 10px;
+}
+p{
+  color: rgba(67, 80, 92, 0.782);
+}
+.line{
+  width: 245px;
+  margin-left: 35px;
+   border-bottom:2px solid gray;
+}
